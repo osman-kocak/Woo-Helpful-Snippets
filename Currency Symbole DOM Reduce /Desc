@@ -1,0 +1,20 @@
+## Custom WooCommerce Price Display
+
+This small set of custom functions allows you to modify the WooCommerce product price display on your website. The code achieves two main goals:
+
+### Remove Currency Symbol from Price Format
+
+The `remove_currency_symbol` function uses the `woocommerce_price_format` filter to remove the default currency symbol and set a format that only displays the price. This helps in creating a cleaner price display.
+
+### Add Custom Text After Price Display
+
+The `add_custom_text_after_bdi` function uses the `woocommerce_get_price_html` filter to add a custom text, in this case, 'TL' (Turkish Lira), after the bidirectional isolation (`<bdi>`) tag within the product price HTML. This allows you to append specific text to the displayed price.
+
+### How to Use:
+
+1. Integrate these functions into your WordPress theme or plugin.
+
+2. Customize the `$new_text` variable in the `add_custom_text_after_bdi` function to display your preferred custom text.
+
+3. Enjoy the modified product price display with the desired adjustments.
+

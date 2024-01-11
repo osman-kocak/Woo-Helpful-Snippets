@@ -1,0 +1,20 @@
+## WhatsApp Inquiry Button for WooCommerce
+
+This code adds a custom button to the WooCommerce product pages that allows users to inquire about a product via WhatsApp. The button appears below the "Add to Cart" button and includes the product title and URL in the WhatsApp message.
+
+### How it Works:
+
+1. The `ecommercehints_content_after_add_to_cart_form` function generates a styled button that links to WhatsApp. It includes the product title and URL in the WhatsApp message.
+
+2. The button is styled with a green background, white text, and a WhatsApp icon for a visually appealing appearance.
+
+### Styling:
+
+The button is styled using custom CSS to achieve a centered and eye-catching design.
+
+### Usage:
+
+1. Integrate the `ecommercehints_content_after_add_to_cart_form` function into your WordPress theme or plugin.
+
+2. Users can click on the "WhatsApp Inquiry" button to initiate a conversation about the specific product.
+
