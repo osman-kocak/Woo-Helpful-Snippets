@@ -1,0 +1,23 @@
+## Phone Number Control and Formatting
+
+This small WooCommerce extension checks and formats the phone numbers entered by users during the payment process. This ensures a consistent phone number format.
+
+### How it Works?
+
+1. **+90 Check:** If the phone number already starts with "+90," it bypasses without any action.
+
+2. **Add +90 If No Leading 0:** If there is no leading "0" in the phone number, it adds "+90" at the beginning.
+
+3. **Add + If 90 at the Beginning:** If the phone number starts with "90," but without a leading "+" sign, it adds "+" at the beginning.
+
+4. **Add +9 If 90 at the Beginning:** If the phone number starts with "90," but without a leading "0," it adds "+9" at the beginning.
+
+5. **Bypass If +90 at the Beginning:** If the phone number already starts with "+90," it bypasses without any action.
+
+### How to Use?
+
+1. Integrate this extension into your WordPress/WooCommerce site.
+
+2. When users enter phone numbers during payment, this extension automatically checks and formats the number.
+
+
